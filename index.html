@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shunsuke HIRATA</title>
+	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+	<link href="css/magnific-popup.min.css" rel="stylesheet">
+    <link href="css/tooplate-style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="tm-container-fluid">
+		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
+			<h1 style="margin-bottom: 0;">Shunsuke HIRATA</h1>
+		</section>
+
+		<div style="position: relative; padding-bottom: 56.25%; margin-bottom: 40px;">
+			<iframe 
+			  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+			  src="https://www.youtube.com/embed/vieIcgHOK8M" 
+			  frameborder="0" 
+			  allow="autoplay; 
+			  encrypted-media" 
+			  allowfullscreen>
+			</iframe>
+		</div>
+		<div style="position: relative; padding-bottom: 56.25%; margin-bottom: 40px;">
+			<iframe 
+			  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+			  src="https://www.youtube.com/embed/JAQpgQCmbUE" 
+			  frameborder="0" 
+			  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			  allowfullscreen>
+			</iframe>
+		</div>
+		<div style="position: relative; padding-bottom: 56.25%; margin-bottom: 40px;">
+			<iframe 
+			  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+			  src="https://www.youtube.com/embed/h0O52MBOMfo" 
+			  frameborder="0" 
+			  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			  allowfullscreen>
+			</iframe>
+		</div>
+
+		<footer class="tm-footer">
+			Copyright 2023 Shunsuke HIRATA
+		</footer>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script>
+		let youtubeLink = document.getElementById("youtube-link");
+		if (window.innerWidth <= 767) {
+			youtubeLink.href = "https://m.youtube.com/@lets_enjoy_camping";
+		} else {
+			youtubeLink.href = "https://www.youtube.com/@lets_enjoy_camping";
+		}
+		
+	</script>
+</body>
+</html>
